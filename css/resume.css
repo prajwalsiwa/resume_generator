@@ -1,0 +1,34 @@
+@page { margin: 0; }
+@media print {
+  @page { margin: 0; }
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: blueviolet;
+	margin: 1.6cm;
+}
+#cv-form{
+	/*display: none;*/
+}
+#cv-template{
+	display: none;
+}
+
+/*cv template stylings*/
+.myimg{
+	/*border: 1px solid ghostwhite;*/
+	border-radius: 10%;
+	width: 140px;
+	/*height: 100px;*/
+	object-fit: contain;
+
+
+}
+.background{
+	background: aqua;
+	/*height: 100vh;*/
+}
