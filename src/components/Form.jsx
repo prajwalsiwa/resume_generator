@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUpload } from "@fortawesome/free-solid-svg-icons";
-
 import "./Form.css";
 import { useState } from "react";
 import PersonalInfo from "./PersonalInfo";

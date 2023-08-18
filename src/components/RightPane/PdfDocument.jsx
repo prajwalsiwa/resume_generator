@@ -1,4 +1,4 @@
-import Pdf from "react-to-pdf";
+// import Pdf from "react-to-pdf";
 import { useRef, useState } from "react";
 
 function PdfDocument() {
@@ -19,13 +19,13 @@ function PdfDocument() {
 
   return (
     <div className="App">
-      <Pdf targetRef={ref} filename="document.pdf">
+      {/* <Pdf targetRef={ref} filename="document.pdf">
         {({ toPdf }) => (
           <button onClick={toPdf} className="button">
             Generate PDF
           </button>
         )}
-      </Pdf>
+      </Pdf> */}
 
       <div ref={ref}>
         <div id="pspdfkit-header">
