@@ -1,0 +1,100 @@
+.upperSection{
+    display: flex
+}
+
+#load{
+    margin-top: 5px;
+    margin-left: 5em;
+}
+#save{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.button{
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+span{
+    margin: 10px;
+}
+.PI{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 8px;
+    row-gap: 10px;
+    margin: 10px;
+
+}
+.SM{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 8px;
+    row-gap: 10px;
+    margin: 10px;
+
+}
+.SM input{
+    margin: ;
+
+}
+.Achievements input{
+    display: block;
+    margin: 10px;
+    width: 96%;
+
+
+}
+.Add{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 20px;
+    border: 1px solid green;
+}
+.Del{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 20px;
+    border: 1px solid green;
+
+}
+.calendar input{
+    display: inline;
+    margin: 10px;
+
+}
+
+.Education input{
+    display: block;
+    margin: 10px;
+    width: 96%;
+}
+h6{
+    margin: 10px;
+}
+textarea{
+    resize: vertical;
+    margin: 10px;
+}
+.projects input{
+    display: block;
+    margin: 10px;
+    width: 96%;
+}
+.projects textarea{
+    resize: vertical;
+    margin: 10px;
+
+}
+.Experience textarea{
+    resize: vertical;
+    margin: 10px;
+}
+.summary textarea{
+    resize: vertical;
+    margin: 10px;
+}
+
+
+
+
